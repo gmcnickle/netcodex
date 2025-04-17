@@ -13,7 +13,7 @@ Each article is self-contained in its own folder, and includes:
 
 | Title | Description |
 |-------|-------------|
-| [Equality Semantics in .NET](./equality-semantics) | Understanding `==`, `Equals`, and `ReferenceEquals` in C# with clarity and examples. |
+| [Equality Semantics in .NET](./.NET%20Equality%20Semantics) | Understanding `==`, `Equals`, and `ReferenceEquals` in C# with clarity and examples. |
 
 > Want to suggest a topic? Feel free to open an [Issue](https://github.com/gmcnickle/articles/issues) or connect on [LinkedIn](https://www.linkedin.com/in/gmcnickle/).
 
