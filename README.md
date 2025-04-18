@@ -17,10 +17,22 @@ Each article is self-contained in its own folder, and includes:
 
 | Title | Description |
 |-------|-------------|
-| [Equality Semantics in .NET](https://github.com/gmcnickle/netcodex/tree/main/.NET%20Equality%20Semantics) | Understanding `==`, `Equals`, and `ReferenceEquals` in C# with clarity and examples. |
+| [Equality Semantics in .NET](https://github.com/gmcnickle/netcodex/blob/main/.NET%20Equality%20Semantics/README.md) | Understanding `==`, `Equals`, and `ReferenceEquals` in C# with clarity and examples. |
 
-> Want to suggest a topic? Feel free to open an [Issue](https://github.com/gmcnickle/netcodex/issues) or connect on [LinkedIn](https://www.linkedin.com/in/gmcnickle/).
+## 📜 Coming Soon
 
+| Title | Description |
+|-------|-------------|
+| Boxing and Unboxing Demystified | Understand how value types are silently boxed, the performance impact, and how to spot and avoid it. |
+| The Hidden Mechanics of .NET Memory Management | From GC generations to finalizers and LOH — a practical guide to what really matters. |
+| Structs vs Classes — The Right Tool for the Job | Why value types aren’t just "smaller classes," and when using them makes or breaks your design. |
+| IDisposable: Misunderstood and Abused | Proper use of `IDisposable`, `using`, and async disposal — with real-world gotchas. |
+| Delegates, Funcs, and Expression Trees | A breakdown of what they are, when to use each, and why they matter for LINQ and beyond. |
+| Reflection in the Modern .NET Era | What reflection is, what it costs, and when to consider alternatives like source generators. |
+| Threads, Tasks, and Async Awakenings | Understanding the difference between `Thread`, `Task`, and `async/await` — and how not to mix them up. |
+| The Power of Span<T> and Memory<T> | Unlocking high-performance, allocation-free programming in modern .NET. |
+<br>
+ > Want to suggest a topic? Feel free to open an [Issue](https://github.com/gmcnickle/netcodex/issues) or connect on [LinkedIn](https://www.linkedin.com/in/gmcnickle/).
 ---
 
 ## 🔄 Reuse & Attribution
