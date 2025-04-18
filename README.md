@@ -1,6 +1,10 @@
-# Developer Articles by Gary McNickle
+# The .NET Codex
 
-Welcome! This repository is a growing collection of articles, essays, and technical deep dives written by [Gary McNickle](https://github.com/gmcnickle), focused on software development, mentoring, and practical .NET concepts.
+> *Because real understanding doesn’t come with a job title.*
+
+Welcome! This repository is a growing collection of articles, essays, and technical deep dives written by Gary McNickle, as part of an ongoing series called The .NET Codex — a guide to the lost lore of .NET development.
+
+This series explores the foundational knowledge that every aspiring .NET developer should know — but often doesn’t, or learns far too late. Think of it as the stuff you won’t find in a beginner tutorial, but that makes everything else click once you do.
 
 Each article is self-contained in its own folder, and includes:
 - A Markdown article (`.md`)
@@ -13,7 +17,7 @@ Each article is self-contained in its own folder, and includes:
 
 | Title | Description |
 |-------|-------------|
-| [Equality Semantics in .NET](./.NET%20Equality%20Semantics) | Understanding `==`, `Equals`, and `ReferenceEquals` in C# with clarity and examples. |
+| [Equality Semantics in .NET](https://github.com/gmcnickle/articles/tree/main/.NET%20Equality%20Semantics) | Understanding `==`, `Equals`, and `ReferenceEquals` in C# with clarity and examples. |
 
 > Want to suggest a topic? Feel free to open an [Issue](https://github.com/gmcnickle/articles/issues) or connect on [LinkedIn](https://www.linkedin.com/in/gmcnickle/).
 
