@@ -19,4 +19,6 @@ This article isn’t a formal deep-dive into the C# equality system. Instead, it
 
 If you’ve ever been surprised by a failed `.Equals()` check, a weird `HashSet` bug, or a pull request that “looks right” but breaks equality logic — this is for you.
 
+[Read the article →](https://github.com/gmcnickle/netcodex/blob/main/.NET%20Equality%20Semantics/ARTICLE.md)
+
 > 📌 *Looking for a true deep-dive into how `==`, `.Equals()`, and `ReferenceEquals()` behave under the hood? Stay tuned — that chapter’s coming soon.*
