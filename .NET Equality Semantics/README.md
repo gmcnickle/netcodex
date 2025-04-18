@@ -18,5 +18,5 @@ We’ll cover when to use which, how they behave differently with value vs. refe
 
 Whether you're writing your first struct or reviewing code that just isn't behaving the way you expected, this article is here to clarify, demystify, and equip you to *really* understand equality in .NET.
 
-[Read the article →](https://github.com/gmcnickle/articles/blob/main/.NET%20Equality%20Semantics/ARTICLE.md)
+[Read the article →](https://github.com/gmcnickle/netcodex/blob/main/.NET%20Equality%20Semantics/ARTICLE.md)
 
