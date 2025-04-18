@@ -1,22 +1,22 @@
 # Equality Semantics in .NET
 
 > 🗃️ *A chapter from The .NET Codex*  
-> *Because real understanding doesn’t come with a job title.*
+> *Because real understanding doesn’t come with a job title.*  
 
 > *Not all equals are created equal.*
 
-Equality in .NET is deceptively tricky. On the surface, it seems simple: `==` means equal, `Equals` does... something similar, and `ReferenceEquals` is rarely used, right?
+Equality in .NET is one of those topics that *looks* simple — until your code starts misbehaving.
 
-But beneath that surface lies a maze of overloads, hidden assumptions, and subtle behaviors that can trip up even experienced developers. Value types vs. reference types, operator overloads, boxing, and custom equality implementations — it’s all too easy to get wrong, and even easier to *never realize you did*.
+`==` means equal, right? `.Equals()`... also means equal? And `ReferenceEquals()` — wait, when would you ever use that?
 
-This article is a guided deep dive into the three pillars of equality in .NET:
-- `==` operator
-- `Equals()` method
-- `ReferenceEquals()` method
+The reality is that .NET equality is full of traps: operator overloads, value vs. reference semantics, boxing, `IEquatable<T>`, and assumptions that don't hold up in practice. It's easy to get wrong — and even easier to never realize you did.
 
-We’ll cover when to use which, how they behave differently with value vs. reference types, how to implement custom equality correctly, and where common misunderstandings creep in.
+This article isn’t a formal deep-dive into the C# equality system. Instead, it’s a hands-on guide to:
+- How equality works across value types, reference types, and immutable objects.
+- When to override equality members — and when to avoid them.
+- The practical risks of skipping `GetHashCode()`, relying on `==`, or trusting reference equality in the wrong context.
+- Techniques (like tuple comparisons and `record` types) to get it right with less pain.
 
-Whether you're writing your first struct or reviewing code that just isn't behaving the way you expected, this article is here to clarify, demystify, and equip you to *really* understand equality in .NET.
+If you’ve ever been surprised by a failed `.Equals()` check, a weird `HashSet` bug, or a pull request that “looks right” but breaks equality logic — this is for you.
 
-[Read the article →](https://github.com/gmcnickle/netcodex/blob/main/.NET%20Equality%20Semantics/ARTICLE.md)
-
+> 📌 *Looking for a true deep-dive into how `==`, `.Equals()`, and `ReferenceEquals()` behave under the hood? Stay tuned — that chapter’s coming soon.*
