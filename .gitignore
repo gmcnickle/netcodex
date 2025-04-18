@@ -1,5 +1,4 @@
-## setup environment
-api-v2.js
+## misc
 *.zip
 *.so
 *.so.*
@@ -7,57 +6,13 @@ api-v2.js
 *.lib
 *.pdb
 
-## idea
-.idea/**/contentModel.xml
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/dataSources/
-.idea/**/dbnavigator.xml
-.idea/**/dictionaries
-.idea/**/dynamic.xml
-.idea/**/gradle.xml
-.idea/**/libraries
-.idea/**/shelf
-.idea/**/sqlDataSources.xml
-.idea/**/tasks.xml
-.idea/**/uiDesigner.xml
-.idea/**/usage.statistics.xml
-.idea/workspace.xml
-evEnterpriseManager/.idea/*
-
-## docs
-docs/http/node_modules/
-docs/http/package-lock.json
-
 ## build artifacts
 build/*.spec
 schema.xml
 *.spec
 *.deb
 *.exe
-*-fileVersionInfo.py
-EnterpriseSystemManager.ini                                              
-build/datarolloff/                                                       
-build/enterprisesystemmanager/                                           
-build/importer/                                                          
-build/installer/ 
-build/sendemail/  
-build/searchindexer
-!build/Windows/include/NullsoftPlugins/Nsisunz/Release
-!build/Windows/include/NullsoftPlugins/**/*.dll
 deb/ 
 stage/
-
-## miscellaneous
-*.py[cod]
-__pycache__/
-*.swap
-evEnterpriseManager/logs
-evEnterpriseManager/media
-evEnterpriseManager/staticfiles/enterprise-holodeck
-evEnterpriseManager/staticfiles/js/api-v2.js
-evEnterpriseManager/unit_tests.xml
-evEnterpriseManager/webnotes.txt
-evEnterpriseManager/whoosh_index
-enterprise-holodeck/coverage
-enterprise-holodeck/junit.xml
+obj/
+bin/
