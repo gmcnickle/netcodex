@@ -17,9 +17,12 @@ Each article is self-contained in its own folder, and includes:
 
 | Title | Description |
 |-------|-------------|
-| [Equality Semantics in .NET](https://github.com/gmcnickle/articles/tree/main/.NET%20Equality%20Semantics) | Understanding `==`, `Equals`, and `ReferenceEquals` in C# with clarity and examples. |
+| [Equality Semantics in .NET](https://github.com/gmcnickle/netcodex/tree/main/.NET%20Equality%20Semantics) | Understanding `==`, `Equals`, and `ReferenceEquals` in C# with clarity and examples. |
 
-> Want to suggest a topic? Feel free to open an [Issue](https://github.com/gmcnickle/articles/issues) or connect on [LinkedIn](https://www.linkedin.com/in/gmcnickle/).
+> 💬 Want to suggest a topic or ask a question? Join the conversation in [GitHub Discussions](https://github.com/gmcnickle/netcodex/discussions).
+> 
+> 🛠 Contributions are welcome by invitation — if you have something you'd love to share, feel free to start a discussion or open an issue!
+
 
 ---
 
