@@ -23,7 +23,7 @@ namespace TupleEquality.Tests
 
         public override bool Equals(object obj) => Equals(this, obj as Point);
 
-        public bool Equals(Point other) => other is not null && Equals(this, other);
+        public bool Equals(Point other) => other is not null && other.X == X && other.Y == Y && other.Z == Z;
 
         protected static bool Equals(Point left, Point right) => ReferenceEquals(left, right) || left?.AsTuple == right?.AsTuple;
     }
